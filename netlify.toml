@@ -1,0 +1,2 @@
+[functions]
+included_files = ["netlify/functions/cdw_employee_database_1000.json"] 

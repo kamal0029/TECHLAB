@@ -11,6 +11,7 @@ exports.handler = async function() {
       body: jsonData
     };
   } catch (err) {
+    console.error('Error reading cdw_employee_database_1000.json:', err);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: 'Could not read cdw_employee_database_1000.json' })
