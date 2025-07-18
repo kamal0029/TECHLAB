@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
+//skills,terminationDate,ReportingManager,hiringManager,reason,contactnumber,yrsof_experience,designation,payBand
 exports.handler = async function() {
   try {
     const dataPath = path.join(__dirname, 'cdw_employee_database_1000.json');
